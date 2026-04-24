@@ -25,13 +25,14 @@ h1:hover {
 
 input {
     padding: 12px 15px;
-    width: 250px;
+    width: 70%;
     border-radius: 25px;
     border: none;
     outline: none;
     margin-top: 20px;
     font-size: 16px;
     transition: 0.3s;
+    max-width: 250px;
 }
 
 input:focus {
@@ -55,15 +56,25 @@ button:hover {
     background: linear-gradient(135deg, #0072ff, #00c6ff);
 }
 
+.search-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
 .weat {
     margin: 40px auto;
-    width: 320px;
-    padding: 25px;
+    width: 90%;
+    max-width: 350px;
+    padding: 20px;
     border-radius: 20px;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(15px);
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
     transition: 0.3s;
+    box-sizing: border-box;
 }
 
 .weat:hover {
@@ -89,6 +100,11 @@ button:hover {
 
 .app {
     min-height: 100vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
     background-size: cover;
     background-position: center;
     transition: 0.5s ease-in-out;
@@ -108,7 +124,9 @@ p {
 /* Forecast */
 
 .forecast {
-    margin-top: 30px;
+    margin-top: 20px auto;
+    width: 90%;
+    max-width: 400px;
 }
 
 .forecast h2 {

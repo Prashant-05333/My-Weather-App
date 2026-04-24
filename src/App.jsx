@@ -136,7 +136,7 @@ if (data) {
       {/* 📅 Forecast */}
       {forecast.length > 0 && (
         <div className="forecast">
-          <h2>📅 7-Day Forecast</h2><br></br>
+          <h2>📅 5-Day Forecast</h2><br></br>
 
           <div className="forecast-box">
             {forecast.map((item, index) => (
