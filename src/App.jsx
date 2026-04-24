@@ -145,7 +145,7 @@ if (data) {
                 <h3>{item.main.temp}°C</h3>
                 <p>{getIcon(item.weather[0].description)}</p>
               </div>
-            ))}
+            ))}r
           </div>
         </div>
       )}

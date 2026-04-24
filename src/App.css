@@ -124,9 +124,7 @@ p {
 /* Forecast */
 
 .forecast {
-    margin-top: 20px auto;
-    width: 90%;
-    max-width: 400px;
+    margin-top: 20px;
 }
 
 .forecast h2 {
